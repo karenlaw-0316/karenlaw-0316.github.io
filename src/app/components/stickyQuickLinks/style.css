@@ -1,0 +1,12 @@
+.StickyQuickLinks__main {
+  width: 70px;
+  height: 250px;
+  background: #fff;
+  box-shadow: 10px 10px 100px 0px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 1;
+  justify-content: left;
+  align-self: center;
+  top: 40%;
+  transition: top 1s linear;
+}

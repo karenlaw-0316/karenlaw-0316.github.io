@@ -1,0 +1,17 @@
+.Title__main {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.Title__slashes {
+  color: #0079d1;
+}
+
+.Title__name {
+  letter-spacing: 1.6px;
+}
