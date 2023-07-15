@@ -7,3 +7,25 @@
   flex-direction: column;
   align-items: center;
 }
+
+.About__description {
+  margin-top: 25px;
+  color: #333;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+.About__contentWrapper {
+  margin-top: 100px;
+}
+
+.About__profilePic {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
