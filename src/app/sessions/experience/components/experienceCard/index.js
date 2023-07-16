@@ -1,20 +1,28 @@
 import "./style.css";
 
-export default function ExperienceCard() {
+export default function ExperienceCard({ data }) {
 	return (
-		<div className="ExperienceCard__main">
+		<div
+			className={
+				data.type === "EDUCATION"
+					? "ExperienceCard__main__blue"
+					: "ExperienceCard__main__green"
+			}
+		>
 			<div className="ExperienceCard__titleWrapper">
-				<div className="ExperienceCard__title">
-					National University of Singapore (NUS)
+				<div
+					className={
+						data.type === "EDUCATION"
+							? "ExperienceCard__title__blue"
+							: "ExperienceCard__title__green"
+					}
+				>
+					{data.title}
 				</div>
-				<div className="ExperienceCard__date">
-					Aug 2020 - May 2024 (Estimated)
-				</div>
+				<div className="ExperienceCard__date">{data.date}</div>
 			</div>
-			<div className="ExperienceCard__subtitle">
-				Bachelor of Science in Business Analytics (Honours)
-			</div>
-			<div className="ExperienceCard__content">Content Here</div>
+			<div className="ExperienceCard__subtitle">{data.subtitle}</div>
+			<div className="ExperienceCard__content">{data.content}</div>
 		</div>
 	);
 }

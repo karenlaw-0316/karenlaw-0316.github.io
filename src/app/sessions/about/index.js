@@ -8,7 +8,7 @@ export default function About() {
 	return (
 		<div className="About__main">
 			<Title name="ABOUT ME"></Title>
-			<div className="About__description">Let's know more about me!</div>
+			{/* <div className="About__description">Let's know more about me!</div> */}
 			<div className="About__contentWrapper">
 				<div className="About__profilePic">
 					<img

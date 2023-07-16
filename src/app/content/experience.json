@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "type": "EDUCATION",
+    "title": "National University of Singapore (NUS)",
+    "subtitle": "Bachelor of Science in Business Analytics (Honours)",
+    "date": "Aug 2020 - May 2024 (Estimated)",
+    "content": "content"
+  },
+  {
+    "id": 2,
+    "type": "WORKING",
+    "title": "UBS AG",
+    "subtitle": "Software Engineering Intern @Chief Digital Information Office",
+    "date": "Jun 2023 - Aug 2023",
+    "content": "content"
+  }
+]
