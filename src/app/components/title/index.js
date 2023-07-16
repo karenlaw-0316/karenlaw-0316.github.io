@@ -1,11 +1,25 @@
 import "./style.css";
 
+function checkName(name) {
+	if (name === "ABOUT ME" || name === "EXPERIENCE") {
+		return true;
+	}
+}
+
 export default function Title({ name }) {
 	return (
 		<div className="Title__main">
-			<div className="Title__slashes">//</div>
+			{checkName(name) ? (
+				<div className="Title__slashes__blue">//</div>
+			) : (
+				<div className="Title__slahes__green">//</div>
+			)}
 			<div className="Title__name">{name}</div>
-			<div className="Title__slashes">//</div>
+			{checkName(name) ? (
+				<div className="Title__slashes__blue">//</div>
+			) : (
+				<div className="Title__slahes__green">//</div>
+			)}
 		</div>
 	);
 }

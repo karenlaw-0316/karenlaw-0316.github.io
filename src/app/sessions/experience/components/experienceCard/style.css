@@ -1,0 +1,52 @@
+.ExperienceCard__main {
+  background: #fff;
+  box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  max-width: 1000px;
+  width: 100%;
+  border-left: 5px #0079d1 solid;
+  border-radius: 5px;
+}
+
+.ExperienceCard__titleWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ExperienceCard__title {
+  color: #0079d1;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px; /* 100% */
+  letter-spacing: 1.2px;
+  margin-bottom: 10px;
+}
+
+.ExperienceCard__date {
+  color: #838383;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+
+.ExperienceCard__subtitle {
+  color: #1e1e1e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  margin-bottom: 20px;
+}
+
+.ExperienceCard__content {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
