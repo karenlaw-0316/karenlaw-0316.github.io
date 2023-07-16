@@ -3,6 +3,7 @@ import Intro from "./sessions/intro";
 import About from "./sessions/about";
 import Experience from "./sessions/experience";
 import Project from "./sessions/project";
+import Contact from "./sessions/contact";
 import StickyQuickLinks from "./components/stickyQuickLinks";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 			<About />
 			<Experience />
 			<Project />
+			<Contact />
 		</div>
 	);
 }

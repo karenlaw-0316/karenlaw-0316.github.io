@@ -10,6 +10,7 @@ export default function Header() {
 				<div className="Header__sections_elements">ABOUT</div>
 				<div className="Header__sections_elements">EXPERIENCE</div>
 				<div className="Header__sections_elements">PROJECT</div>
+				<div className="Header__sections_elements">CONTACT</div>
 			</div>
 		</div>
 	);
