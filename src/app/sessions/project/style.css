@@ -1,0 +1,30 @@
+.Project__main {
+  padding: 100px 50px;
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Project__description {
+  margin-top: 25px;
+  color: #333;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+.Project__projectCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+}
