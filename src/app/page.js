@@ -5,17 +5,19 @@ import Experience from "./sessions/experience";
 import Project from "./sessions/project";
 import Contact from "./sessions/contact";
 import StickyQuickLinks from "./components/stickyQuickLinks";
+import ProjectDetailPage from "./sessions/projectDetailPage";
 
 export default function Home() {
 	return (
 		<div className="ContentWrapper">
-			<StickyQuickLinks />
+			{/* <StickyQuickLinks />
 			<Header />
 			<Intro />
 			<About />
 			<Experience />
 			<Project />
-			<Contact />
+			<Contact /> */}
+			<ProjectDetailPage />
 		</div>
 	);
 }

@@ -1,7 +1,11 @@
 import "./style.css";
 
 function checkName(name) {
-	if (name === "ABOUT ME" || name === "EXPERIENCE") {
+	if (
+		name === "ABOUT ME" ||
+		name === "EXPERIENCE" ||
+		name === "ABOUT THE PROJECT"
+	) {
 		return true;
 	}
 }
