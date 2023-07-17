@@ -1,31 +1,34 @@
 import "./style.css";
 
-export default function ProjectCard() {
+export default function ProjectCard({ data }) {
 	return (
 		<div className="ProjectCard__main">
 			<img
 				className="ProjectCard__img"
-				src={"/assets/projectPic/orbital.png"}
+				src={`/assets/projectPic/${data.screenshot}`}
 				alt="Project picture"
 			></img>
 			<div className="ProjectCard__contentWrapper">
 				<div className="ProjectCard__dateTypeWrapper">
-					<div className="ProjectCard__date">May - Jul 2021</div>
-					<div className="ProjectCard__projectType">Programme</div>
+					<div className="ProjectCard__date">{data.date}</div>
+					<div className="ProjectCard__projectType">
+						{data.projectType}
+					</div>
 				</div>
-				<div className="ProjectCard__title">TimeliNUS</div>
-				<div className="ProjectCard__position">
-					Artemis (Highest Level)
-				</div>
-				<div className="ProjectCard__programme">
-					@NUS Orbital (Summer Program)
-				</div>
+				<div className="ProjectCard__title">{data.title}</div>
+				<div className="ProjectCard__position">{data.position}</div>
+				<div className="ProjectCard__programme">@{data.programme}</div>
 				<div className="ProjectCard__content">
-					Here is some content regarding the project
+					{data.shortDescription}
 				</div>
 				<div className="ProjectCard__skillsWrapper">
-					<div className="ProjectCard__skillTag">JavaScript</div>
-					<div className="ProjectCard__skillTag">VueJS</div>
+					{data.skills.map((skill, i) => {
+						return (
+							<div key={i} className="ProjectCard__skillTag">
+								{skill}
+							</div>
+						);
+					})}
 				</div>
 				<br />
 				<div className="ProjectCard__divider"></div>

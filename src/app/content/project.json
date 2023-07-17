@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "title": "TimeliNUS",
+    "date": "May - Jul 2021",
+    "projectType": "Programme",
+    "position": "Artemis (Highest Level)",
+    "programme": "NUS Orbital (Summer Program)",
+    "shortDescription": "Here is some short description regarding the project.",
+    "description": "Lorem ipsum dolor sit amet consectetur. Tristique donec gravida id lacus vulputate. Quis mauris malesuada aliquam elit morbi non. A consequat pulvinar condimentum lobortis sit imperdiet proin. Varius lorem augue malesuada velit pretium lectus. Pretium urna quis tempor eget ut. Odio egestas quis lorem pellentesque diam nulla. Eget eu praesent donec diam leo. Sodales sit et suspendisse mattis mollis vitae nunc. Turpis diam iaculis eget dolor sit convallis euismod faucibus id.",
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "VueJS",
+      "Figma",
+      "Google Firebase"
+    ],
+    "screenshot": "orbital.png",
+    "photos": [
+      "Orbital-Dashboard-M.png",
+      "Orbital-Dashboard-W.png",
+      "Orbital-Meeting-M.png",
+      "Orbital-Todo-M.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "TimeliNUS 2",
+    "date": "May - Jul 2021",
+    "projectType": "Programme",
+    "position": "Artemis (Highest Level)",
+    "programme": "NUS Orbital (Summer Program)",
+    "shortDescription": "Here is some short description regarding the project.",
+    "description": "Lorem ipsum dolor sit amet consectetur. Tristique donec gravida id lacus vulputate. Quis mauris malesuada aliquam elit morbi non. A consequat pulvinar condimentum lobortis sit imperdiet proin. Varius lorem augue malesuada velit pretium lectus. Pretium urna quis tempor eget ut. Odio egestas quis lorem pellentesque diam nulla. Eget eu praesent donec diam leo. Sodales sit et suspendisse mattis mollis vitae nunc. Turpis diam iaculis eget dolor sit convallis euismod faucibus id.",
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "VueJS",
+      "Figma",
+      "Google Firebase"
+    ],
+    "screenshot": "orbital.png",
+    "photos": [
+      "Orbital-Dashboard-M.png",
+      "Orbital-Dashboard-W.png",
+      "Orbital-Meeting-M.png",
+      "Orbital-Todo-M.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "TimeliNUS 3",
+    "date": "May - Jul 2021",
+    "projectType": "Programme",
+    "position": "Artemis (Highest Level)",
+    "programme": "NUS Orbital (Summer Program)",
+    "shortDescription": "Here is some short description regarding the project.",
+    "description": "Lorem ipsum dolor sit amet consectetur. Tristique donec gravida id lacus vulputate. Quis mauris malesuada aliquam elit morbi non. A consequat pulvinar condimentum lobortis sit imperdiet proin. Varius lorem augue malesuada velit pretium lectus. Pretium urna quis tempor eget ut. Odio egestas quis lorem pellentesque diam nulla. Eget eu praesent donec diam leo. Sodales sit et suspendisse mattis mollis vitae nunc. Turpis diam iaculis eget dolor sit convallis euismod faucibus id.",
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "VueJS",
+      "Figma",
+      "Google Firebase"
+    ],
+    "screenshot": "orbital.png",
+    "photos": [
+      "Orbital-Dashboard-M.png",
+      "Orbital-Dashboard-W.png",
+      "Orbital-Meeting-M.png",
+      "Orbital-Todo-M.png"
+    ]
+  }
+]
