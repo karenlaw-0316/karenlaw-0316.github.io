@@ -150,3 +150,49 @@
 .ProjectDetail__screenshot {
   width: 100%;
 }
+
+.ProjectDetail__buttonWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  max-width: 1000px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ProjectDetail__prevProjectButton {
+  color: #0079d1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 1px solid #0079d1;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.ProjectDetail__homeButton {
+  color: #1e1e1e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ProjectDetail__nextProjectButton {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #0079d1;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

@@ -7,7 +7,7 @@ import Highlighter from "react-highlight-words";
 
 export default function Intro() {
 	return (
-		<div className="Index__main">
+		<div className="Index__main" id="intro">
 			<div className="Index__name">
 				<Highlighter
 					highlightClassName="Index__name__highlight"

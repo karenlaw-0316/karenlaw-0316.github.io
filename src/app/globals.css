@@ -6,4 +6,5 @@
   margin: 0;
   font-family: 'Open Sans';
   color: #1e1e1e;
+  scroll-behavior: smooth;
 }

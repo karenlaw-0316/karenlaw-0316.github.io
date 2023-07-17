@@ -6,7 +6,7 @@ const skillsets = ["JavaScript", "Java", "Python", "R"];
 
 export default function About() {
 	return (
-		<div className="About__main">
+		<div className="About__main" id="about">
 			<Title name="ABOUT ME"></Title>
 			{/* <div className="About__description">Let's know more about me!</div> */}
 			<div className="About__contentWrapper">

@@ -7,7 +7,7 @@ import Highlighter from "react-highlight-words";
 
 export default function Contact() {
 	return (
-		<div className="Contact__main">
+		<div className="Contact__main" id="contact">
 			<div className="Contact__name">
 				<Highlighter
 					highlightClassName="Contact__name__highlight"

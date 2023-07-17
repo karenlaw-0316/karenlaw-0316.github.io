@@ -7,7 +7,7 @@ const experienceData = require("@/app/content/experience.json");
 
 export default function Experience() {
 	return (
-		<div className="Experience__main">
+		<div className="Experience__main" id="experience">
 			<Title name="EXPERIENCE"></Title>
 			{/* <div className="Experience__description">
 				Find out more about my education and working experience here!

@@ -1,9 +1,25 @@
+"use client";
+
 import Title from "@/app/components/title";
 import "./style.css";
+import WhiteHeader from "@/app/components/header/white";
+import React, { useEffect, useState } from "react";
+import Head from "next/head";
+import DefaultHeader from "@/app/components/header/default";
 
 export default function ProjectDetailPage() {
+	const [screenOffset, setScreenOffset] = useState(false);
+
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			window.addEventListener("scroll", () =>
+				setScreenOffset(window.scrollY >= 300)
+			);
+		}
+	}, []);
 	return (
 		<div>
+			{screenOffset ? <DefaultHeader /> : <WhiteHeader />}
 			<div className="ProjectDetail__intro">
 				<img
 					className="ProjectDetail__bgPic"
@@ -71,6 +87,15 @@ export default function ProjectDetailPage() {
 								"/assets/projectPic/screenshots/Orbital-Dashboard-W.png"
 							}
 						></img>
+					</div>
+				</div>
+				<div className="ProjectDetail__buttonWrapper">
+					<div className="ProjectDetail__prevProjectButton">
+						PREV PROJECT: LANGERATION
+					</div>
+
+					<div className="ProjectDetail__nextProjectButton">
+						NEXT PROJECT: LANGERATION
 					</div>
 				</div>
 			</div>

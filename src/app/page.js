@@ -1,23 +1,29 @@
-import Header from "./components/header";
+"use client";
+
+import DefaultHeader from "@/app/components/header/default";
+import StickyQuickLinks from "@/app/components/stickyQuickLinks";
 import Intro from "./sessions/intro";
 import About from "./sessions/about";
 import Experience from "./sessions/experience";
 import Project from "./sessions/project";
 import Contact from "./sessions/contact";
-import StickyQuickLinks from "./components/stickyQuickLinks";
-import ProjectDetailPage from "./sessions/projectDetailPage";
+import { useEffect } from "react";
 
-export default function Home() {
+export default function MainPage() {
+	useEffect(() => {
+		if (window.location.hash != "") {
+			history.replaceState({}, "", "/");
+		}
+	});
 	return (
-		<div className="ContentWrapper">
-			{/* <StickyQuickLinks />
-			<Header />
+		<div>
+			<StickyQuickLinks />
+			<DefaultHeader />
 			<Intro />
 			<About />
 			<Experience />
 			<Project />
-			<Contact /> */}
-			<ProjectDetailPage />
+			<Contact />
 		</div>
 	);
 }
