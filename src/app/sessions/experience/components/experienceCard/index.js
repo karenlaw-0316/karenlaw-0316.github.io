@@ -22,7 +22,13 @@ export default function ExperienceCard({ data }) {
 				<div className="ExperienceCard__date">{data.date}</div>
 			</div>
 			<div className="ExperienceCard__subtitle">{data.subtitle}</div>
-			<div className="ExperienceCard__content">{data.content}</div>
+			<div className="ExperienceCard__content">
+				<ul>
+					{data.content.map((contentPoint, i) => {
+						return <li key={i}>{contentPoint}</li>;
+					})}
+				</ul>
+			</div>
 		</div>
 	);
 }

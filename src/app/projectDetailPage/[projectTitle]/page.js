@@ -86,8 +86,8 @@ export default function ProjectDetailPage({ params: { projectTitle } }) {
 			<div className="ProjectDetail__intro">
 				<img
 					className="ProjectDetail__bgPic"
-					src={"/assets/projectPic/orbital.png"}
-					alt="Profile picture"
+					src={`/assets/projectPic/${project.screenshot}`}
+					alt="Project picture"
 				></img>
 				<div className="ProjectDetail__blackOverlay"></div>
 				<div className="ProjectDetail__introContentWrapper">
