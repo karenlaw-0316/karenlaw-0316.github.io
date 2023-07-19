@@ -37,7 +37,7 @@ export default function About() {
 					<div className="About__bioSection__littleBio">
 						<Subtitle name="LITTLE BIO"></Subtitle>
 						<div className="About__bioSection__littleBio__content">
-							Hi! {"I'm"} <b>Karen, Law Hiu Yan. </b>
+							Hi! I am <b>Karen, Law Hiu Yan. </b>
 							<span style={{ fontSize: "20px" }}>
 								{" "}
 								&#128521;{" "}
