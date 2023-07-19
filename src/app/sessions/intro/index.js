@@ -13,16 +13,16 @@ export default function Intro() {
 					highlightClassName="Index__name__highlight"
 					searchWords={["Karen Law Hiu Yan"]}
 					autoEscape={true}
-					textToHighlight="Hi, I'm Karen Law Hiu Yan"
+					textToHighlight="Hi, I am Karen Law Hiu Yan"
 				/>
 			</div>
 
 			<TypeAnimation
 				preRenderFirstString={true}
 				sequence={[
-					"I'm a Software Engineer",
+					"I am a Software Engineer",
 					2000,
-					"I'm a Data Analyst",
+					"I am a Data Analyst",
 					2000,
 				]}
 				className="Index__name"
