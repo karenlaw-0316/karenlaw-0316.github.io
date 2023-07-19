@@ -5,9 +5,9 @@
     "date": "May - Jul 2021",
     "projectType": "Programme",
     "position": "Artemis (Highest Level)",
-    "programme": "NUS Orbital (Summer Program)",
-    "shortDescription": "Here is some short description regarding the project.",
-    "description": "Lorem ipsum dolor sit amet consectetur. Tristique donec gravida id lacus vulputate. Quis mauris malesuada aliquam elit morbi non. A consequat pulvinar condimentum lobortis sit imperdiet proin. Varius lorem augue malesuada velit pretium lectus. Pretium urna quis tempor eget ut. Odio egestas quis lorem pellentesque diam nulla. Eget eu praesent donec diam leo. Sodales sit et suspendisse mattis mollis vitae nunc. Turpis diam iaculis eget dolor sit convallis euismod faucibus id.",
+    "programme": "2021 Orbital - NUS Independent Software Development Project",
+    "shortDescription": "A project management platform, built using VueJS. Web and mobile interfaces are designed with Figma.",
+    "description": "In 2021, I became part of Orbital, a NUS Computing summer project, where I engaged at the Artemis level, the highest level of participation. During this program, I successfully developed TimeliNUS, my very own project management platform, utilizing the VueJS framework. Additionally, I skillfully crafted the interfaces for both the web and mobile applications of the platform, employing Figma as my design tool.",
     "skills": [
       "JavaScript",
       "HTML",
@@ -17,61 +17,128 @@
       "Google Firebase"
     ],
     "screenshot": "orbital.png",
-    "photos": [
+    "photoFolder": "Orbital",
+    "photo": [
+      "Orbital-A1Poster.png",
       "Orbital-Dashboard-M.png",
       "Orbital-Dashboard-W.png",
+      "Orbital-Dashboard.png",
       "Orbital-Meeting-M.png",
+      "Orbital-Meeting(Add)-W.png",
+      "Orbital-Meeting(Invitation)-W.png",
+      "Orbital-Meeting(ListView)-W.png",
+      "Orbital-Onboarding.png",
+      "Orbital-Poster1.png",
+      "Orbital-Poster2.png",
+      "Orbital-Project-Meeting-W.png",
+      "Orbital-Project-M.png",
+      "Orbital-Todo.png",
+      "Orbital-Register.png",
       "Orbital-Todo-M.png"
     ]
   },
   {
     "id": 2,
-    "title": "TimeliNUS 2",
-    "date": "May - Jul 2021",
-    "projectType": "Programme",
-    "position": "Artemis (Highest Level)",
-    "programme": "NUS Orbital (Summer Program)",
-    "shortDescription": "Here is some short description regarding the project.",
-    "description": "Lorem ipsum dolor sit amet consectetur. Tristique donec gravida id lacus vulputate. Quis mauris malesuada aliquam elit morbi non. A consequat pulvinar condimentum lobortis sit imperdiet proin. Varius lorem augue malesuada velit pretium lectus. Pretium urna quis tempor eget ut. Odio egestas quis lorem pellentesque diam nulla. Eget eu praesent donec diam leo. Sodales sit et suspendisse mattis mollis vitae nunc. Turpis diam iaculis eget dolor sit convallis euismod faucibus id.",
-    "skills": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "VueJS",
-      "Figma",
-      "Google Firebase"
-    ],
-    "screenshot": "orbital.png",
-    "photos": [
-      "Orbital-Dashboard-M.png",
-      "Orbital-Dashboard-W.png",
-      "Orbital-Meeting-M.png",
-      "Orbital-Todo-M.png"
+    "title": "Langeration",
+    "date": "Jul 2021",
+    "projectType": "Hackathon",
+    "position": "2nd Runner-Up",
+    "programme": "LifeHack2021 - NUS Computing Club",
+    "shortDescription": "A language-learning proof-of-concept done in 24 hours using React Native and Figma to promote diversity and the concept of inclusive community.",
+    "description": "In LifeHack 2021, organized by NUS Computing Club, our team earned the 2nd runner-up position for delivering exceptional code quality and thoughtfully designed user interfaces. My winning solution, called 'Langeration', fosters cross-cultural connections between elderly and youth from various countries through language exchange. By enabling both parties to learn each other's native languages, Langeration promotes diversity and the idea of an inclusive community. Here are the prototype interfaces showcasing this innovative concept, crafted using Sketch.",
+    "skills": ["React Native", "Figma", "Google Firebase"],
+    "screenshot": "langeration.png",
+    "photoFolder": "Langeration",
+    "photo": [
+      "HFG-elderly.jpg",
+      "HFG-onboard.png",
+      "HFG-others.jpg",
+      "HFG-youth.jpg"
     ]
   },
   {
     "id": 3,
-    "title": "TimeliNUS 3",
-    "date": "May - Jul 2021",
-    "projectType": "Programme",
-    "position": "Artemis (Highest Level)",
-    "programme": "NUS Orbital (Summer Program)",
-    "shortDescription": "Here is some short description regarding the project.",
-    "description": "Lorem ipsum dolor sit amet consectetur. Tristique donec gravida id lacus vulputate. Quis mauris malesuada aliquam elit morbi non. A consequat pulvinar condimentum lobortis sit imperdiet proin. Varius lorem augue malesuada velit pretium lectus. Pretium urna quis tempor eget ut. Odio egestas quis lorem pellentesque diam nulla. Eget eu praesent donec diam leo. Sodales sit et suspendisse mattis mollis vitae nunc. Turpis diam iaculis eget dolor sit convallis euismod faucibus id.",
-    "skills": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "VueJS",
-      "Figma",
-      "Google Firebase"
-    ],
-    "screenshot": "orbital.png",
-    "photos": [
-      "Orbital-Dashboard-M.png",
-      "Orbital-Dashboard-W.png",
-      "Orbital-Meeting-M.png",
-      "Orbital-Todo-M.png"
+    "title": "Goodbye My E-Waste",
+    "date": "Jul 2021",
+    "projectType": "Hackathon",
+    "position": "Champion",
+    "programme": "UAiTED Innovation Competition - UAiTED",
+    "shortDescription": "Introduced a creative solution to recycle E-waste with a combination of technological innovation, including data analytics and mobile application.",
+    "description": "As the leader of team GME (Green Metropolis Enthusiast), I effectively guided our group to victory in the international UAiTED Innovation Competition, organized by UAiTED. Our winning proposal tackled the recycling of E-waste through a creative blend of technological innovations, incorporating data analytics and a mobile app to address the UN's SDGs (Goal 9 and Goal 11). During the competition, I conducted a Monte Carlo Simulation to showcase the benefits of employing data analytics in reducing transportation costs and expanding our user market. Below, you can see the interfaces of the mobile application prototype that I skillfully designed using Figma.",
+    "skills": ["React Native", "Figma", "Google Firebase"],
+    "screenshot": "gme.png",
+    "photoFolder": "GME",
+    "photo": [
+      "GME-Deposit_Form_showcase.jpg",
+      "GME-History_SchemeDetails_showcase.jpg",
+      "GME-Navigation_showcase.jpg",
+      "GME-Login_showcase.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "SciKick",
+    "date": "Sept 2021",
+    "projectType": "Hackathon",
+    "position": "Top 10 Team",
+    "programme": "MindfulHack 2021",
+    "shortDescription": "A proof-of-concept that monitors mental health through journaling, mentor chats, mood and sleep tracking, while providing professional tips and relevant articles for better management.",
+    "description": "In MindfulHack 2021, organized by MindfulHack, our team's exceptional code quality and thoughtfully designed user interfaces secured us a place among the top 10 teams. Our innovative solution, SciKick, is a comprehensive mental health monitoring application that offers various features and activities, such as journal writing, mentor chats, mood and sleep tracking, enabling users to stay on top of their mental well-being. SciKick also provides valuable professional tips and suggests relevant articles to assist users in effectively managing their mental health. Below, you can view the prototype interfaces meticulously crafted using Figma, showcasing the concept and functionality of our application.",
+    "skills": ["React Native", "Figma", "Google Firebase"],
+    "screenshot": "scikick.png",
+    "photoFolder": "Scikick",
+    "photo": [
+      "scikick_dashboard_showcase.png",
+      "scikick_login_register_showcase.png",
+      "scikick_journal_showcase.png",
+      "scikick_homepage_showcase.png",
+      "scikick_mentor_showcase.png"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "OurAI",
+    "date": "Aug 2021 - Jun 2022",
+    "projectType": "CCA",
+    "position": "Software Engineer",
+    "programme": "NUS Social Impact Catalyst - Project Our Food Chapter",
+    "shortDescription": "An intuitive web-app delivering poster auto-generation feature for owners in Food & Beverages (F&B) sector using VueJS",
+    "description": "As the software developer for 'Our Food Chapter', I created an intuitive web application that automates poster generation for Food & Beverages (F&B) sector owners, offering support in social media management and digital marketing. The following Figma prototype interfaces showcase this concept.",
+    "skills": ["VueJS", "JavaScript", "Figma", "Google Firebase"],
+    "screenshot": "ourai.png",
+    "photoFolder": "Ourfoodchapter",
+    "photo": [
+      "OFC_HomePage.png",
+      "OFC_Login.png",
+      "OFC_Poster_Details.png",
+      "OFC_Poster_Output_1.png",
+      "OFC_Poster_Output_2.png",
+      "OFC_Poster_Output_3.png",
+      "OFC_Poster_Output_4.png",
+      "OFC_Poster_Template.png",
+      "OFC_Register.png"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "ShipPass",
+    "date": "Nov 2021",
+    "projectType": "Hackathon",
+    "position": "2nd Place",
+    "programme": "Maritime Singapore Connect Maritime Digital Challenge",
+    "shortDescription": "An intuitive web-app delivering poster auto-generation feature for owners in Food & Beverages (F&B) sector using VueJS",
+    "description": "As the software developer for 'Our Food Chapter', I created an intuitive web application that automates poster generation for Food & Beverages (F&B) sector owners, offering support in social media management and digital marketing. The following Figma prototype interfaces showcase this concept.",
+    "skills": ["ReactJS", "Electron", "Figma"],
+    "screenshot": "shippass.png",
+    "photoFolder": "Shippass",
+    "photo": [
+      "ShipPass_Activities_onboard_entry.png",
+      "ShipPass_Activities_Onboard.png",
+      "ShipPass_CrewList.png",
+      "ShipPass_Engine_Details.png",
+      "ShipPass_Fuel_Mix_Entry.png",
+      "ShipPass_FuelMix.png",
+      "ShipPass_Weather_Status.png"
     ]
   }
 ]

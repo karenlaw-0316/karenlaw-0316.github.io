@@ -60,12 +60,12 @@ export default function ProjectDetailPage({ params: { projectTitle } }) {
 		(p) => p.title === decodeURI(projectTitle)
 	);
 
-	const prevProject =
+	const nextProject =
 		projectData.find((p) => project.id - 1 === p.id) !== undefined
 			? projectData.find((p) => project.id - 1 === p.id)
 			: projectData.find((p) => p.id === projectData.length);
 
-	const nextProject =
+	const prevProject =
 		projectData.find((p) => project.id + 1 === p.id) !== undefined
 			? projectData.find((p) => project.id + 1 === p.id)
 			: projectData.find((p) => p.id === 1);
@@ -120,34 +120,33 @@ export default function ProjectDetailPage({ params: { projectTitle } }) {
 				</div>
 				<div className="ProjectDetail__screenshotWrapper">
 					<div className="ProjectDetail__screenshotLeftCol">
-						<img
-							className="ProjectDetail__screenshot"
-							src={
-								"/assets/projectPic/screenshots/Orbital-Dashboard-M.png"
-							}
-						></img>
-						<img
-							className="ProjectDetail__screenshot"
-							src={
-								"/assets/projectPic/screenshots/Orbital-Todo-M.png"
-							}
-						></img>
+						{project.photo
+							.filter((el, i) => i % 2 == 0)
+							.map((pic, i) => {
+								return (
+									<img
+										key={i}
+										className="ProjectDetail__screenshot"
+										src={`/assets/projectPic/screenshots/${project.photoFolder}/${pic}`}
+									></img>
+								);
+							})}
 					</div>
 					<div className="ProjectDetail__screenshotRightCol">
-						<img
-							className="ProjectDetail__screenshot"
-							src={
-								"/assets/projectPic/screenshots/Orbital-Meeting-M.png"
-							}
-						></img>
-						<img
-							className="ProjectDetail__screenshot"
-							src={
-								"/assets/projectPic/screenshots/Orbital-Dashboard-W.png"
-							}
-						></img>
+						{project.photo
+							.filter((el, i) => i % 2 != 0)
+							.map((pic, i) => {
+								return (
+									<img
+										key={i}
+										className="ProjectDetail__screenshot"
+										src={`/assets/projectPic/screenshots/${project.photoFolder}/${pic}`}
+									></img>
+								);
+							})}
 					</div>
 				</div>
+
 				<div className="ProjectDetail__buttonWrapper">
 					<Link
 						href={`/projectDetailPage/${prevProject.title}`}

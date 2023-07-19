@@ -1,3 +1,5 @@
+"use client";
+
 import "./style.css";
 
 export default function ProjectCard({ data }) {
@@ -11,11 +13,48 @@ export default function ProjectCard({ data }) {
 			<div className="ProjectCard__contentWrapper">
 				<div className="ProjectCard__dateTypeWrapper">
 					<div className="ProjectCard__date">{data.date}</div>
-					<div className="ProjectCard__projectType">
-						{data.projectType}
-					</div>
+					{data.projectType === "Programme" ? (
+						<div className="ProjectCard__projectType__blue">
+							{data.projectType}
+						</div>
+					) : (
+						""
+					)}
+					{data.projectType === "Hackathon" ? (
+						<div className="ProjectCard__projectType__green">
+							{data.projectType}
+						</div>
+					) : (
+						""
+					)}
+					{data.projectType === "CCA" ? (
+						<div className="ProjectCard__projectType__orange">
+							{data.projectType}
+						</div>
+					) : (
+						""
+					)}
 				</div>
-				<div className="ProjectCard__title">{data.title}</div>
+				{data.projectType === "Programme" ? (
+					<div className="ProjectCard__title__blue">{data.title}</div>
+				) : (
+					""
+				)}
+				{data.projectType === "Hackathon" ? (
+					<div className="ProjectCard__title__green">
+						{data.title}
+					</div>
+				) : (
+					""
+				)}
+				{data.projectType === "CCA" ? (
+					<div className="ProjectCard__title__orange">
+						{data.title}
+					</div>
+				) : (
+					""
+				)}
+
 				<div className="ProjectCard__position">{data.position}</div>
 				<div className="ProjectCard__programme">@{data.programme}</div>
 				<div className="ProjectCard__content">

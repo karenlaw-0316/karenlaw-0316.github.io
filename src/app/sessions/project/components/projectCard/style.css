@@ -7,6 +7,7 @@
   position: relative;
   top: 0;
   transition: top ease 0.5s;
+  height: 650px;
 }
 
 .ProjectCard__main:hover {
@@ -40,7 +41,7 @@
   letter-spacing: 0.6px;
 }
 
-.ProjectCard__projectType {
+.ProjectCard__projectType__blue {
   color: #0079d1;
   text-align: center;
   font-size: 12px;
@@ -49,8 +50,46 @@
   line-height: 24px; /* 200% */
 }
 
-.ProjectCard__title {
+.ProjectCard__projectType__green {
+  color: #13c69c;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+
+.ProjectCard__projectType__orange {
+  color: #ff7f22;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+
+.ProjectCard__title__blue {
   color: #0079d1;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  margin-bottom: 10px;
+}
+
+.ProjectCard__title__green {
+  color: #13c69c;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  margin-bottom: 10px;
+}
+
+.ProjectCard__title__orange {
+  color: #ff7f22;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -73,6 +112,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 157.143% */
+  height: 50px;
 }
 
 .ProjectCard__content {
@@ -83,12 +123,15 @@
   line-height: 20px; /* 166.667% */
   margin-top: 20px;
   margin-bottom: 20px;
+  height: 60px;
 }
 
 .ProjectCard__skillsWrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  height: 70px;
+  align-items: center;
 }
 
 .ProjectCard__skillTag {

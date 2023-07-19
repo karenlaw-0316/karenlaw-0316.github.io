@@ -23,6 +23,10 @@
 
 .ProjectDetail__introContentWrapper {
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .ProjectDetail__date {
@@ -44,36 +48,55 @@
     line-height: normal;
     letter-spacing: 4.8px;
     margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .ProjectDetail__position {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .ProjectDetail__programme {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .ProjectDetail__title {
     color: #fff;
-    font-size: 72px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     letter-spacing: 4.8px;
     margin-bottom: 15px;
+    text-align: center;
   }
-}
 
-.ProjectDetail__position {
-  color: #fff;
-  text-align: center;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
+  .ProjectDetail__position {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
 
-.ProjectDetail__programme {
-  color: #fff;
-  text-align: center;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 300;
+  .ProjectDetail__programme {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+  }
 }
 
 .ProjectDetail__projectType {
@@ -91,6 +114,7 @@
   width: 100%;
   border-radius: 5px;
   margin-top: 30px;
+  max-width: 300px;
 }
 
 .ProjectDetail__contentWrapper {
@@ -137,27 +161,30 @@
   margin-bottom: 50px;
 }
 
-.ProjectDetail__screenshotWrapper {
-  max-width: 1000px;
-  width: 80vw;
-  display: flex;
-  gap: 20px;
-}
+@media only screen and (min-width: 800px) {
+  .ProjectDetail__screenshotWrapper {
+    max-width: 1000px;
+    width: 80vw;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
 
-.ProjectDetail__screenshotLeftCol {
-  max-width: 500px;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+  .ProjectDetail__screenshotLeftCol {
+    max-width: 500px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.ProjectDetail__screenshotRightCol {
-  max-width: 500px;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  .ProjectDetail__screenshotRightCol {
+    max-width: 500px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .ProjectDetail__screenshot {
