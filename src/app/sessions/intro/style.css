@@ -53,11 +53,22 @@
   }
 }
 
-.Index__name {
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 60px;
+@media only screen and (min-width: 500px) {
+  .Index__name {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Index__name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+  }
 }
 
 .Index__name__highlight {
