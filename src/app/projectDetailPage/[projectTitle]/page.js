@@ -60,12 +60,12 @@ export default function ProjectDetailPage({ params: { projectTitle } }) {
 		(p) => p.title === decodeURI(projectTitle)
 	);
 
-	const nextProject =
+	const prevProject =
 		projectData.find((p) => project.id - 1 === p.id) !== undefined
 			? projectData.find((p) => project.id - 1 === p.id)
 			: projectData.find((p) => p.id === projectData.length);
 
-	const prevProject =
+	const nextProject =
 		projectData.find((p) => project.id + 1 === p.id) !== undefined
 			? projectData.find((p) => project.id + 1 === p.id)
 			: projectData.find((p) => p.id === 1);

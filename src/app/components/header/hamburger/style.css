@@ -46,8 +46,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: white;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
-  height: 50% !important;
+  height: 450px !important;
   border-radius: 0 0 50px 0px;
+  display: flex;
 }
 
 .bm-item-list {

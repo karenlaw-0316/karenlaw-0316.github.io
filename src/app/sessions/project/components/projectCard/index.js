@@ -13,21 +13,21 @@ export default function ProjectCard({ data }) {
 			<div className="ProjectCard__contentWrapper">
 				<div className="ProjectCard__dateTypeWrapper">
 					<div className="ProjectCard__date">{data.date}</div>
-					{data.projectType === "Programme" ? (
+					{data.projectType === "Hackathon" ? (
 						<div className="ProjectCard__projectType__blue">
 							{data.projectType}
 						</div>
 					) : (
 						""
 					)}
-					{data.projectType === "Hackathon" ? (
+					{data.projectType === "Programme" ? (
 						<div className="ProjectCard__projectType__green">
 							{data.projectType}
 						</div>
 					) : (
 						""
 					)}
-					{data.projectType === "CCA" ? (
+					{data.projectType === "CCA/Coursework" ? (
 						<div className="ProjectCard__projectType__orange">
 							{data.projectType}
 						</div>
@@ -35,19 +35,19 @@ export default function ProjectCard({ data }) {
 						""
 					)}
 				</div>
-				{data.projectType === "Programme" ? (
+				{data.projectType === "Hackathon" ? (
 					<div className="ProjectCard__title__blue">{data.title}</div>
 				) : (
 					""
 				)}
-				{data.projectType === "Hackathon" ? (
+				{data.projectType === "Programme" ? (
 					<div className="ProjectCard__title__green">
 						{data.title}
 					</div>
 				) : (
 					""
 				)}
-				{data.projectType === "CCA" ? (
+				{data.projectType === "CCA/Coursework" ? (
 					<div className="ProjectCard__title__orange">
 						{data.title}
 					</div>
