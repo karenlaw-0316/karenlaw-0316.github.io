@@ -218,7 +218,6 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 1px;
   border: 1px solid #0079d1;
   cursor: pointer;
   border-radius: 5px;
@@ -230,7 +229,6 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 1px;
   cursor: pointer;
   text-align: center;
 }
@@ -241,7 +239,6 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 1px;
   background-color: #0079d1;
   border-radius: 5px;
   padding: 10px 20px;
