@@ -65,3 +65,23 @@
   background-color: rgba(0, 121, 209, 1);
   padding: 10px 20px;
 }
+
+.Contact__icon__wrapper {
+  width: 250px;
+  height: 70px;
+  justify-content: left;
+  align-self: center;
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Contact__icon {
+  cursor: pointer;
+  width: 70px;
+  padding: 5px;
+  /* background: #fff; */
+  border-radius: 10px;
+}
