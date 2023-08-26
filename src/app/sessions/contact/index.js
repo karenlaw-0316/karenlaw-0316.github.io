@@ -32,7 +32,7 @@ export default function Contact() {
 						className="Contact__icon"
 					/>
 				</a>
-				<a href="mailto:lawhiuyankarenlaw@gmail.com" target="_blank">
+				<a href="mailto:karenlhy316@gmail.com" target="_blank">
 					<img
 						src={"/assets/icon/email_icon.png"}
 						className="Contact__icon"

@@ -18,7 +18,7 @@ export default function StickyQuickLinks() {
 					className="StickyQuickLinks__icon"
 				/>
 			</a>
-			<a href="mailto:lawhiuyankarenlaw@gmail.com" target="_blank">
+			<a href="mailto:karenlhy316@gmail.com" target="_blank">
 				<img
 					src={"/assets/icon/email_icon.png"}
 					className="StickyQuickLinks__icon"
