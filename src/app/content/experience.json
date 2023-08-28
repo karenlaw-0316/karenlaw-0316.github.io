@@ -23,7 +23,7 @@
     "id": 3,
     "type": "WORKING",
     "title": "UBS AG",
-    "subtitle": "Software Engineering (Chief Digital and Information Office) Intern @Hong Kong",
+    "subtitle": "Software Engineering Intern (Group Operations & Technology Office) @Hong Kong",
     "date": "Jun 2023 - Aug 2023",
     "content": [
       "Developed a proof-of-concept (POC) from scratch to simulate a rule engine system that verifies user input from a REST API against predefined business rules. Utilised Java, Spring Boot, Kafka, and Drools to complete the project",
